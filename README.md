@@ -34,7 +34,6 @@
 
 <br>
 
---
 
 <div align="center">
 
@@ -50,7 +49,6 @@
 
 </div>
 
---
 
 <div align="center">
 
@@ -86,7 +84,6 @@ Select Open with Live Server.
 
 </div>
 
---
 
 <div align="center">
 
@@ -111,7 +108,7 @@ Select Open with Live Server.
 
 </div>
 
---
+
 
 <div align="center">
 
@@ -133,7 +130,7 @@ Recent activity generates star bursts
 
 </div>
 
---
+
 
 <div align="center">
 
@@ -153,7 +150,7 @@ Press SPACE to temporarily increase star velocity and bloom intensity.
 
 </div>
 
---
+
 
 <div align="center">
 
@@ -175,7 +172,7 @@ src/Engine.js
 
 </div>
 
---
+
 
 <div align="center">
 
@@ -190,7 +187,7 @@ Designed to maintain high frame rates on modern browsers.
 
 </div>
 
---
+
 
 <div align="center">
 
