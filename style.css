@@ -106,3 +106,42 @@ body {
 #nav-hint { position: absolute; bottom: 2rem; width: 100%; text-align: center; font-family: 'Orbitron'; font-size: 0.7rem; opacity: 0.5; letter-spacing: 4px; }
 h1#project-title { font-family: 'Orbitron'; color: var(--neon-blue); font-size: 1.5rem; }
 .separator { height: 1px; background: linear-gradient(90deg, var(--neon-purple), transparent); margin: 1rem 0; }
+
+/* --- WATERMARK --- */
+#watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1000; 
+    
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+    padding: 8px 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+#watermark .highlight {
+    color: var(--neon-blue);
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+#watermark:hover {
+    background: rgba(0, 243, 255, 0.1);
+    border-color: var(--neon-blue);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+#watermark:hover .highlight {
+    color: #fff;
+    text-shadow: 0 0 8px var(--neon-blue);
+}
