@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak-OS | Data Cosmos</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+                "gsap": "https://unpkg.com/gsap@3.12.5/index.js"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div id="welcome-screen">
+        <div class="content">
+            <div class="subtitle">WAITING FOR INPUT</div>
+            <h1 class="title">SARTHAK BHOPALE</h1>
+            <div class="role">INTERACTIVE PORTFOLIO ORBIT</div>
+            <button id="start-btn">START SARTHAK-OS</button>
+        </div>
+    </div>
+
+    <div id="ui-layer" class="hidden">
+        
+        <div id="global-metrics">
+            <div class="metric-item">
+                <span class="label">REPOSITORIES</span>
+                <span class="value" id="metric-repos">--</span>
+            </div>
+            <div class="metric-item">
+                <span class="label">STARS EARNED</span>
+                <span class="value" id="metric-stars">--</span>
+            </div>
+            <div class="metric-item">
+                <span class="label">CONTRIBUTIONS</span>
+                <span class="value" id="metric-commits">--</span>
+            </div>
+        </div>
+
+        <div id="system-status" class="hidden">SYSTEM NOTIFICATION</div>
+
+        <div id="holo-panel" class="hidden">
+            <h1 id="project-title">PROJECT_NAME</h1>
+            <div class="separator"></div>
+            
+            <div class="stats-row">
+                <span id="project-tech">LANG // LIB</span>
+                <span id="project-stats" style="float: right; color: #fff;">★ 0</span>
+            </div>
+
+            <div id="readme-container" class="custom-scroll">
+                <div id="readme-content">LOADING DATA STREAM...</div>
+                <div class="fade-overlay"></div>
+            </div>
+
+            <div class="action-row">
+                <button id="visit-btn" class="holo-btn primary">VISIT REPOSITORY</button>
+                <button id="back-btn" class="holo-btn secondary">RETURN TO ORBIT</button>
+            </div>
+        </div>
+        
+        <div id="nav-hint">SCROLL TO ZOOM • DRAG TO ORBIT • CLICK TO DOCK • ESC TO RETURN</div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
