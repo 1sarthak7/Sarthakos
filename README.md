@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f3ff,100:bc13fe&height=200&section=header&text=SARTHAK_OS&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=INTERACTIVE%203D%20DATA%20COSMOS&descAlignY=55&descSize=20" alt="SarthakOS Header" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f3ff,100:bc13fe&height=200&section=header&text=SARTHAK-OS&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=INTERACTIVE%203D%20DATA%20COSMOS&descAlignY=55&descSize=20" alt="SarthakOS Header" width="100%">
 
   <br>
 
@@ -198,6 +198,5 @@ ENGINEERED BY
 
 <a href="https://github.com/1sarthak7">SARTHAK BHOPALE</a>
 
-© 2026 INTERACTIVE DATA COSMOS
 
 </div>
