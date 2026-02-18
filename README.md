@@ -173,6 +173,7 @@ src/Engine.js
 </div>
 
 
+--- 
 
 <div align="center">
 
@@ -187,6 +188,7 @@ Designed to maintain high frame rates on modern browsers.
 
 </div>
 
+---
 
 
 <div align="center">
